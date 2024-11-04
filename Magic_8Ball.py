@@ -1,6 +1,10 @@
-name = "Matt"
-question = "Are Mangos on sale in LIDL?"
-answer = ""
+##name = "Matt"
+##question = "Are Mangos on sale in LIDL?"
+##answer = ""
+## Replaced hardcoded name & question with User Input
+
+name = input("What is your name? ")
+question = input("What question would you like to ask the Magic 8-Ball? ")
 
 import random
 random_number = random.randint(1,15)
